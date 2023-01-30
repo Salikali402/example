@@ -1,0 +1,44 @@
+nav{
+    background-color: rgba(96, 84, 84, 0.858);
+    color: #ffff;
+    padding: 5% auto;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.gameContainer{
+    display: flex;
+}
+.container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+}
+
+.box{
+    text-align: center;
+    font-size: 8vw;
+    border: 1.5px solid black;
+}
+.box:hover{
+    color: rgb(141, 71, 212);
+}
+
+.gameInfo{
+    text-align: end;
+}
+
+.bl{
+    border-left: 0;
+}
+.bt{
+    border-top: 0;
+}
+.br{
+    border-right: 0;
+}
+.bb{
+    border-bottom: 0;
+}
